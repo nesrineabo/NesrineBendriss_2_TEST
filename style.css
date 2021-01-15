@@ -69,4 +69,130 @@ nav li a:hover{
     margin-top: 0;
 }
 
-/* RECHERCHE */
+/* BOUTON RECHERCHE */
+
+.bouton-recherche{
+    display: flex;
+    margin-bottom:30px;
+    margin: 2em;
+}
+
+.fa-map-marker-alt{
+    background-color: #f2f2f2;
+    border: 1px solid #f2f2f2;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    padding: 17px;
+}
+
+.ville{
+    text-align: left;
+    border-top: 1px solid #f2f2f2;
+    border-bottom: 1px solid #f2f2f2;
+    padding: 17px;
+    font-weight: 700;
+    font-family: 'Raleway', sans-serif;
+    font-size: 1em;
+    text-decoration: none;
+    border-left: none;
+    border-right: none;
+    outline: none;
+}
+
+.bouton-rechercher{
+    background-color:#0065FC;
+    color: white;
+    border: none;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    padding: 17px;
+    font-weight: bold;
+    outline: none;
+    font-size: 1em;
+}
+
+.bouton-rechercher:hover{
+    color:#0065FC;
+    background-color:#deebff;
+    cursor: pointer;
+}
+
+/* FILTRES */
+
+.filtre{
+    display: flex;
+    flex-flow: row wrap;
+    margin: 2em;
+}
+
+.filtre h3{
+    margin-right: 32px;
+}
+
+.filtre button{
+    display: flex;
+    align-items: center;
+    height: 45px;
+    background: none;
+    font-size: 1rem;
+    border-radius: 50px;
+    border: 2px solid #f2f2f2;
+    border-left: transparent;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    padding: 0px 20px 0px 0px;
+    margin-right: 23px;
+    outline: none;
+}
+
+.filtre .icone{
+    background-color: #deebff;
+    padding: 13px;
+    border-radius: 100%;
+    color: #0065FC;
+    margin-right: 12px;
+    margin-left:-2px;
+}
+
+
+.filtre button:hover{
+    background-color: #0065FC;
+    color: white;
+    border-color: #0065FC;
+    box-shadow: 5px 5px 10px #f2f2f2;
+}
+
+/* NOMBRE D'HÉBERGEMENTS DISPONIBLES */
+
+.info-dispo{
+    display: flex;
+    align-items: center;
+    margin-left: 2em;
+    margin-bottom: 35px;
+    font-size: 0.8em;
+    text-align: center;
+    size: small;
+}
+
+.fa-info{
+    height: 20 px;
+    width: 20px;
+    color: #0065FC;
+    background-color: none;
+    border: 1px solid #f2f2f2;
+    border-radius: 50px;
+    align-items: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-right: 12px;   
+}
+
+/* SECTION HEBERGEMENTS */ 
+
+#hebergements{
+    margin: 2em;
+}
+
+.contenu-hebergement{
+    display: flex;
+}
