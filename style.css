@@ -2,6 +2,7 @@
 
 body{
     font-family: 'Raleway', sans-serif;
+    margin: 0;
 }
 
 .container{
@@ -18,14 +19,15 @@ a{
 header{
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
     margin: 2em;
 }
 
 nav{
+    flex: 1;
     display: flex;
-    justify-content: center;
+    justify-content: flex-end;
     text-align: center;
+    list-style-type: none;
 }
 
 nav ul{
@@ -37,7 +39,34 @@ nav ul{
 }
 
 nav li a{
-    padding-left: 30px;
+    margin-left: 30px;
+    padding-left: 10px;
+    padding-right: 10px;
     color: black;
     text-decoration: none;
 }
+
+nav li a:hover{
+    color: #0065FC;
+    padding-top: 43px;
+    border-top: 3px solid #0065FC;
+}
+
+.inscription{
+    font-weight: 700;
+    color: #0065FC;
+}
+
+.titre-header{
+    margin: 2em;
+}
+.titre-header h1{
+    font-size: 20px;
+    padding-bottom: 0;
+}
+
+.titre-header p{
+    margin-top: 0;
+}
+
+/* RECHERCHE */
