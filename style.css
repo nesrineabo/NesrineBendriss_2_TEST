@@ -7,6 +7,7 @@ body {
 
 .container {
   max-width: 1440px;
+  margin: 3.12em;
 }
 
 a {
@@ -19,7 +20,6 @@ a {
 header {
   display: flex;
   flex-wrap: wrap;
-  margin: 2em;
 }
 
 nav {
@@ -57,9 +57,6 @@ nav li a:hover {
   color: #0065fc;
 }
 
-.titre-header {
-  margin: 2em;
-}
 .titre-header h1 {
   font-size: 20px;
   padding-bottom: 0;
@@ -74,7 +71,6 @@ nav li a:hover {
 .bouton-recherche {
   display: flex;
   margin-bottom: 30px;
-  margin: 2em;
 }
 
 .fa-map-marker-alt {
@@ -122,7 +118,6 @@ nav li a:hover {
 .filtre {
   display: flex;
   flex-flow: row wrap;
-  margin: 2em;
 }
 
 .filtre h3 {
@@ -166,7 +161,6 @@ nav li a:hover {
 .info-dispo {
   display: flex;
   align-items: center;
-  margin-left: 2em;
   margin-bottom: 35px;
   font-size: 0.8em;
   text-align: center;
@@ -189,10 +183,10 @@ nav li a:hover {
 /* SECTION HEBERGEMENTS */
 
 #hebergements {
-  margin: 2em;
   display: flex;
   justify-content: space-between;
-  max-height: 630px;
+  height: 630px;
+  margin-bottom: 60px;
 }
 
 #hebergements h3 {
@@ -202,7 +196,7 @@ nav li a:hover {
 .contenant-hebergement {
   display: flex;
   flex-direction: column;
-  max-width: 950px;
+  max-width: 880px;
   background-color: #f2f2f2;
   border-radius: 20px;
   padding: 20px 0;
@@ -217,7 +211,11 @@ nav li a:hover {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly;
-  margin: 10px 0;
+  width: 800px;
+  margin-right: 40px;
+  margin-left: 40px;
+  padding-bottom: 5px;
+  padding-top: 5px;
 }
 
 .carte-hebergement {
@@ -225,7 +223,8 @@ nav li a:hover {
   border-radius: 20px;
   box-shadow: 0px 0px 12px 0px rgba(0, 0, 0, 0.247);
   margin: 15px 10px 20px 10px;
-  max-height: 200px;
+  height: 200px;
+  width: 245px;
 }
 
 .contenu-carte-hebergement {
@@ -261,19 +260,22 @@ nav li a:hover {
 
 .plus {
   font-weight: 700;
+  font-size: 1.1em;
+  padding-left: 50px;
+  padding-bottom: 20px;
 }
 
 /* LES PLUS POPULAIRES */
 
 .populaire {
-  width: 450px;
+  width: 420px;
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-left: 40px;
-  padding: 20px 20px 0px 20px;
+  margin-left: 20px;
   background-color: #f2f2f2;
   border-radius: 20px;
+  padding: 20px 0;
 }
 
 .populaire .fa-chart-line {
@@ -284,20 +286,19 @@ nav li a:hover {
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
-  margin-top: -20px;
+  padding-top: 20px;
 }
 
 .carte-populaire {
   background-color: white;
   border-radius: 20px;
-  margin: 30px 40px 30px 40px;
-  max-height: 145px;
+  height: 145px;
+  width: 342px;
+  margin-bottom: 30px;
 }
 
 .contenu-carte-populaire {
   display: flex;
-  width: 334px;
-  height: 134px;
   padding: 5px;
 }
 
@@ -310,6 +311,18 @@ nav li a:hover {
   border-bottom-left-radius: 20px;
 }
 
+.texte-contenu-carte-populaire {
+  padding-left: 16px;
+  padding-top: 15px;
+}
+
 .texte-contenu-carte-populaire h4 {
   margin: 0;
 }
+
+.texte-contenu-carte-populaire p {
+  font-size: 0.9em;
+  margin: 6px 0;
+}
+
+/* ACTIVITÉS */
