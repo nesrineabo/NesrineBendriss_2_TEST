@@ -149,13 +149,14 @@ nav li a:hover {
   border-radius: 100%;
   color: #0065fc;
   margin-right: 0.75em;
-  margin-left: 0.125em;
+  margin-left: -0.125em;
 }
 
 .filtre button:hover {
   background-color: #0065fc;
   color: white;
   border-color: #0065fc;
+  border-left: none;
   box-shadow: 5px 5px 10px #f2f2f2;
 }
 

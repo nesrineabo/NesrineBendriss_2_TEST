@@ -1,0 +1,19 @@
+@media all and (min-width: 375px) and (max-width: 768px) {
+  .container {
+    margin: 1.25em;
+  }
+
+  header {
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  header nav {
+    position: relative;
+  }
+
+  .inscription {
+    position: absolute;
+    top: -65px;
+  }
+}
