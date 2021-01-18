@@ -124,13 +124,13 @@ nav li a:hover {
 }
 
 .filtre h3 {
-  margin-right: 32px;
+  margin-right: 2em;
 }
 
 .filtre button {
   display: flex;
   align-items: center;
-  height: 45px;
+  height: 2.813em;
   background: none;
   font-size: 1rem;
   border-radius: 50px;
@@ -139,17 +139,17 @@ nav li a:hover {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
   padding: 0px 20px 0px 0px;
-  margin-right: 23px;
+  margin-right: 1.438em;
   outline: none;
 }
 
 .filtre .icone {
   background-color: #deebff;
-  padding: 13px;
+  padding: 0.813em;
   border-radius: 100%;
   color: #0065fc;
-  margin-right: 12px;
-  margin-left: -2px;
+  margin-right: 0.75em;
+  margin-left: 0.125em;
 }
 
 .filtre button:hover {
@@ -240,6 +240,7 @@ nav li a:hover {
   height: 115px;
   background-position: center;
   background-size: cover;
+  object-fit: cover;
   border-top-left-radius: 20px;
   border-top-right-radius: 20px;
 }
@@ -311,6 +312,7 @@ nav li a:hover {
   height: 135px;
   background-size: cover;
   background-position: center;
+  object-fit: cover;
   border-top-left-radius: 20px;
   border-bottom-left-radius: 20px;
 }
@@ -360,6 +362,7 @@ nav li a:hover {
   width: 300px;
   background-size: cover;
   background-position: center;
+  object-fit: cover;
   border-top-left-radius: 20px;
   border-top-right-radius: 20px;
 }
