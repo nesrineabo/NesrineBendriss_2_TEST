@@ -1,19 +1,82 @@
 @media all and (min-width: 375px) and (max-width: 768px) {
   .container {
-    margin: 1.25em;
+    margin: 0;
+    background-color: red;
   }
 
   header {
+    margin: 1.25em;
     justify-content: space-between;
     align-items: center;
   }
 
-  header nav {
-    position: relative;
+  nav {
+    flex-basis: 100%;
+    order: 2;
+    display: flex;
+  }
+
+  nav li a {
+    margin-left: 0px;
+  }
+
+  nav li a:hover {
+    border-top: hidden;
   }
 
   .inscription {
-    position: absolute;
-    top: -65px;
+    z-index: 1;
+  }
+
+  .bouton-recherche {
+    justify-content: stretch;
+  }
+
+  .bouton-rechercher span {
+    display: none;
+  }
+
+  .bouton-rechercher .fa-search {
+    display: contents;
+    color: white;
+  }
+
+  .filtre {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+  #hebergements {
+    flex-direction: column-reverse;
+    max-height: none;
+    margin: 0;
+  }
+
+  .populaire {
+    width: max-content;
+    margin: auto;
+    border-radius: 0;
+    padding: 20px 20px;
+  }
+
+  .populaire h3 .contenu-populaire {
+    margin: 1.25em;
+  }
+
+  .contenant-hebergement {
+    background: none;
+    margin: 0;
+    align-self: center;
+  }
+
+  .contenant-hebergement h3 {
+    margin-left: 20px;
+  }
+
+  .carte-hebergement {
+    max-width: 375px;
+    flex-direction: column;
   }
 }

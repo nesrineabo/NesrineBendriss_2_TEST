@@ -116,6 +116,10 @@ nav li a:hover {
   cursor: pointer;
 }
 
+.fa-search {
+  display: none;
+}
+
 /* FILTRES */
 
 .filtre {
