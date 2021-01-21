@@ -1,71 +1,28 @@
-@media (max-width: 1408px) {
-  #hebergements {
-    flex-direction: column;
-  }
-
-  .contenant-hebergement {
+@media screen and (min-width: 375px) {
+  .container {
     width: 100%;
+  }
+  /* HEADER */
+  header {
+    width: 90%;
     margin-inline: auto;
   }
 
-  .contenu-hebergement {
-    justify-content: space-between;
-  }
-
-  .carte-hebergement {
-    margin-right: 50px;
-  }
-
-  .populaire {
-    flex-direction: column;
-    width: 100%;
-    margin-top: 50px;
-  }
-
-  .populaire h3 {
-    align-self: flex-start;
-    margin-left: 50px;
-  }
-
-  .contenu-populaire {
-    flex-direction: row;
-  }
-
-  .carte-populaire {
-    margin-right: 20px;
-  }
-
-  #activites {
-    width: 100%;
-  }
-
-  .contenu-activites {
-    flex-wrap: no-wrap;
-    width: 93%;
-  }
-
-  .carte-activites {
-  }
-}
-
-@media (max-width: 376px) {
-  .container {
-    width: 90%;
-    margin: 20px 20px;
-  }
-
   nav {
-    diplay: flex;
+    display: flex;
     flex-wrap: wrap-reverse;
   }
 
   .titre-header {
     width: 90%;
+    margin-inline: auto;
   }
+
+  /* RECHERCHE */
 
   .bouton-recherche {
     margin-inline: auto;
-    width: 100%;
+    width: 90%;
   }
 
   .bouton-rechercher {
@@ -79,6 +36,13 @@
   .bouton-rechercher .fa-search {
     display: contents;
     color: white;
+  }
+
+  /* FILTRES */
+
+  .filtre {
+    width: 90%;
+    margin-inline: auto;
   }
 
   .filtre h3 {
@@ -96,18 +60,30 @@
     margin-top: 0.8em;
   }
 
+  /* INFO DISPO */
+
   .info-dispo {
+    width: 90%;
+    margin-inline: auto;
     font-size: 1em;
     text-align: start;
   }
 
-  #hebergements {
-    flex-direction: column-reverse;
-    margin-inline: auto;
+  span .fa-info {
+    padding-left: 0px;
   }
 
+  /* HEBERGEMENTS */
+
+  #hebergements {
+    flex-direction: column-reverse;
+  }
+
+  /* POPULAIRE */
+
   .populaire {
-    margin: unset;
+    width: 100%;
+    margin: 0;
   }
 
   .contenant-populaire {
@@ -115,8 +91,7 @@
   }
 
   .contenant-populaire h3 {
-    margin-left: 0;
-    padding-left: 0;
+    width: 90%;
   }
 
   .contenu-populaire {
@@ -146,6 +121,8 @@
     font-size: 13px;
   }
 
+  /* CONTENANT HEBERGEMENTS */
+
   .contenant-hebergement {
     background-color: transparent;
     width: 100%;
@@ -171,6 +148,8 @@
     height: 115px;
   }
 
+  /* ACTIVITES */
+
   .contenu-activites {
     flex-direction: row;
     width: 100%;
@@ -188,4 +167,6 @@
   .carte-activites img {
     height: 135px;
   }
+
+  /* FOOTER */
 }
