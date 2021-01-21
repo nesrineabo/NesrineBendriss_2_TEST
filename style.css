@@ -292,9 +292,10 @@ p .inscription {
 
 .plus {
   font-weight: 700;
-  font-size: 1.1em;
+  font-size: 1.15em;
   padding-left: 50px;
   padding-bottom: 20px;
+  margin-top: 17px;
 }
 
 /* LES PLUS POPULAIRES */
