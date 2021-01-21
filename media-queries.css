@@ -1,4 +1,4 @@
-@media screen and (min-width: 375px) {
+@media screen and (max-width: 375px) {
   .container {
     width: 100%;
   }
@@ -84,6 +84,7 @@
   .populaire {
     width: 100%;
     margin: 0;
+    border-radius: 0;
   }
 
   .contenant-populaire {
@@ -92,6 +93,12 @@
 
   .contenant-populaire h3 {
     width: 90%;
+    margin-inline: auto;
+    padding-left: 0px;
+  }
+
+  .fa-chart-line {
+    padding-left: -10px;
   }
 
   .contenu-populaire {
@@ -121,20 +128,24 @@
     font-size: 13px;
   }
 
+  .carte-3 img {
+    width: 200px;
+  }
+
   /* CONTENANT HEBERGEMENTS */
 
   .contenant-hebergement {
     background-color: transparent;
-    width: 100%;
+    width: 90%;
   }
 
   .contenant-hebergement h3 {
-    padding-left: 0;
+    margin-left: 20px;
   }
 
   .contenu-hebergement {
     flex-direction: column;
-    justidy-content: center;
+    margin-inline: auto;
   }
 
   .carte-hebergement {

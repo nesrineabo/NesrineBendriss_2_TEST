@@ -347,7 +347,6 @@ p .inscription {
 .contenu-carte-populaire img {
   width: 125px;
   height: 135px;
-  background-size: cover;
   background-position: center;
   object-fit: cover;
   border-top-left-radius: 20px;
