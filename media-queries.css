@@ -17,7 +17,7 @@
   nav {
     flex-basis: auto;
     display: flex;
-    flex-wrap: wrap;
+    flex-direction: row;
     margin-left: 0;
   }
 
@@ -31,19 +31,25 @@
     border-top: none;
     text-align: center;
     padding-left: 0;
+    margin-right: 30px;
   }
 
   nav ul li {
-    width: 48%;
     text-align: center;
     padding: 16px 0;
     margin-left: 0;
+    margin-right: 30px;
     border-bottom: 3px solid #f2f2f2;
   }
 
-  nav li a:hover {
-    border-bottom: 3px solid #0065fc;
+  nav ul li a:hover {
     padding-bottom: 16px;
+    border-bottom: 3px solid #0065fc;
+  }
+
+  .conteneur-nav .inscription {
+    position: absolute;
+    top: -65px;
   }
 
   .lien-nav-h {
@@ -54,7 +60,8 @@
 
   .lien-nav-a {
     width: 187px;
-    margin: 0;
+    margin-right: 30px;
+    margin-left: 50px;
     align-items: center;
   }
 

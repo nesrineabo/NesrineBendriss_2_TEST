@@ -24,17 +24,18 @@ header {
   flex-wrap: wrap;
 }
 
-nav {
-  flex: 1;
+.conteneur-nav {
   display: flex;
   justify-content: flex-end;
   text-align: center;
   list-style-type: none;
+  flex: 1;
 }
 
 nav ul {
   list-style-type: none;
   display: flex;
+  flex: 1;
   flex-flow: row wrap;
   justify-content: flex-end;
   font-size: 13px;
@@ -55,22 +56,22 @@ nav li a:hover {
   border-top: 3px solid #0065fc;
 }
 
-nav ul p {
-  margin: 0;
-}
-
-p .inscription {
+.inscription {
   margin-left: 30px;
   padding-left: 20px;
   padding-right: 20px;
   margin-top: 0;
   text-decoration: none;
   font-size: 1.2em;
-}
-
-.inscription {
   font-weight: 700;
   color: #0065fc;
+  text-align: center;
+}
+
+.conteneur-nav p {
+  margin: 0;
+  padding-top: 14px;
+  font-size: 13px;
 }
 
 .titre-header h1 {
