@@ -24,6 +24,10 @@ header {
   flex-wrap: wrap;
 }
 
+.inscription-phone {
+  display: none;
+}
+
 .conteneur-nav {
   display: flex;
   justify-content: flex-end;
