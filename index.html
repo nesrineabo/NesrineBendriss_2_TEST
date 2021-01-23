@@ -5,12 +5,18 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
     <script src="https://kit.fontawesome.com/353d67f000.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="media-queries.css">
     <title>Reservia - Trouvez votre hébergement pour des vacances de rêve </title>
 </head>
 
+<<<<<<< HEAD
 <!-- Contenu du site -->
+=======
+<!--Contenu du site -->
+>>>>>>> style-dev
 
 <body>
 
@@ -18,16 +24,27 @@
         
 <!-- Header -->       
         <header>
-            <a href="index.html"><img src="/images/logo/Reservia.svg" alt="Logo du moteur de recherche d'hébergement Reservia" class="logo"/></a>
-
-            <nav>
-                <ul>
-                    <li><a class="lien-nav" href="#hebergements">Hébergements</a></li>
-                    <li><a class="lien-nav" href="#activites">Activités</a></li>
-                    <li><a class="inscription" href="#">S'inscrire</a></li>
-                </ul>
-                
-            </nav>
+            <div class="conteneur-phone">
+                <a href="index.html"><img src="/images/logo/Reservia.svg" alt="Logo du moteur de recherche d'hébergement Reservia" class="logo"/></a>
+    
+                <p>
+                    <a class="inscription inscription-phone" href="#">S'inscrire</a>
+                </p>
+            </div>
+            
+            <div class="conteneur-nav">
+                <nav>
+                    <ul>
+                        <li><a class="lien-nav-h" href="#hebergements">Hébergements</a></li>
+                        <li><a class="lien-nav-a" href="#activites">Activités</a></li>
+                    </ul>
+                    
+                </nav>
+    
+                <p>
+                    <a class="inscription inscription-desk" href="#">S'inscrire</a>
+                </p>
+            </div>
 
         </header>
 
@@ -40,11 +57,14 @@
 <!-- Recherche -->
         <section class="recherche-filtre">
         
-            <div class="bouton-recherche">
+        <div class="bouton-recherche">
 
             <i class="fas fa-map-marker-alt"></i>
             <input type="search" class="ville" value="Marseille, France">
-            <button class="bouton-rechercher" type="submit">Rechercher</button>
+            <button class="bouton-rechercher" type="submit">
+                <span>Rechercher</span>
+                <i class="fas fa-search"></i>
+            </button>
 
         </div>
         
@@ -52,22 +72,28 @@
         <div class="filtre">
             <h3>Filtres</h3>
 
-            <button><span class="icone">
-                <i class="fas fa-money-bill-wave fa-fw"></i>
-                </span>Économique</button>
-            <button><span class="icone">
-                <i class="fas fa-child fa-fw"></i>
-                </span>Familial</button>
-            <button><span class="icone">
-                <i class="fas fa-heart fa-fw"></i>
-                </span>Romantique</button>
-            <button><span class="icone">
-                <i class="fas fa-dog fa-fw"></i>
-                </span>Animaux autorisés</button>
+            <div class="contenu-filtre">
+                <button><span class="icone">
+                    <i class="fas fa-money-bill-wave fa-fw"></i>
+                    </span>Économique</button>
+                <button><span class="icone">
+                    <i class="fas fa-child fa-fw"></i>
+                    </span>Familial</button>
+                <button><span class="icone">
+                    <i class="fas fa-heart fa-fw"></i>
+                    </span>Romantique</button>
+                <button><span class="icone">
+                    <i class="fas fa-dog fa-fw"></i>
+                    </span>Animaux autorisés</button>
+            </div>
 
         </div>
 
+<<<<<<< HEAD
 <!-- Nombre d'hébergements disponibles -->
+=======
+<!--Nombre d'hébergements disponibles -->
+>>>>>>> style-dev
         <div class="info-dispo">
 
             <span><i class="fas fa-info"></i></span>
@@ -76,7 +102,11 @@
 
         </section>
 
+<<<<<<< HEAD
 <!-- Section Hébergements -->
+=======
+<!--Section Hébergements -->
+>>>>>>> style-dev
         <section id="hebergements">
         
 
@@ -210,67 +240,69 @@
 
             <div class="populaire">
 
-                <h3>Les plus populaires<i class="fas fa-chart-line"></i></h3>
-
-                <div class="contenu-populaire">
-
-                    <a href="#" class="carte-populaire">
-                        <div class="contenu-carte-populaire">
-                            <img src="images/hebergements/4_small/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg" alt="Chambre avec lit double et tapisserie verte inspiration art deco">
-                            
-                            <div class="texte-contenu-carte-populaire">
-                                <h4>Hôtel le Soleil du Matin</h4>
-                                <p>Nuit à partir de <b>128€</b></p>
-                                <span class="etoiles">
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star"></i>
-                                </span>
+                <div class="contenant-populaire">
+                    <h3>Les plus populaires<i class="fas fa-chart-line"></i></h3>
+    
+                    <div class="contenu-populaire">
+    
+                        <a href="#" class="carte-populaire">
+                            <div class="contenu-carte-populaire">
+                                <img src="images/hebergements/4_small/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg" alt="Chambre avec lit double et tapisserie verte inspiration art deco">
+                                
+                                <div class="texte-contenu-carte-populaire">
+                                    <h4>Hôtel le Soleil du Matin</h4>
+                                    <p>Nuit à partir de <b>128€</b></p>
+                                    <span class="etoiles">
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                    </span>
+                                </div>
+    
                             </div>
-
-                        </div>
-                    </a>
-
-                    <a href="#" class="carte-populaire">
-                        <div class="contenu-carte-populaire">
-                            <img src="images/hebergements/4_small/aw-creative-VGs8z60yT2c-unsplash.jpg" alt="Chambre morderne avec un grand lit double beige et des rappels de matériaux métalliques inspiration industrielle">
-                            
-                            <div class="texte-contenu-carte-populaire">
-                                <h4>Au Coeur de l'Eau Chambres d'hôtes</h4>
-                                <p>Nuit à partir de <b>71€</b></p>
-                                <span class="etoiles">
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star" style="color: #f2f2f2"></i>
-                                </span>
+                        </a>
+    
+                        <a href="#" class="carte-populaire">
+                            <div class="contenu-carte-populaire">
+                                <img src="images/hebergements/4_small/aw-creative-VGs8z60yT2c-unsplash.jpg" alt="Chambre morderne avec un grand lit double beige et des rappels de matériaux métalliques inspiration industrielle">
+                                
+                                <div class="texte-contenu-carte-populaire">
+                                    <h4>Au Coeur de l'Eau Chambres d'hôtes</h4>
+                                    <p>Nuit à partir de <b>71€</b></p>
+                                    <span class="etoiles">
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star" style="color: #f2f2f2"></i>
+                                    </span>
+                                </div>
+    
                             </div>
-
-                        </div>
-                    </a>
-
-                    <a href="#" class="carte-populaire">
-                        <div class="contenu-carte-populaire">
-                            <img src="images/hebergements/4_small/febrian-zakaria-sjvU0THccQA-unsplash.jpg" alt="Chambre classique lit double">
-                            
-                            <div class="texte-contenu-carte-populaire">
-                                <h4>Hôtel Tout Bleu et Blanc</h4>
-                                <p>Nuit à partir de <b>68€</b></p>
-                                <span class="etoiles">
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star" style="color: #f2f2f2"></i>
-                                </span>
+                        </a>
+    
+                        <a href="#" class="carte-populaire">
+                            <div class="contenu-carte-populaire carte-3">
+                                <img src="images/hebergements/4_small/febrian-zakaria-sjvU0THccQA-unsplash.jpg" alt="Chambre classique lit double">
+                                
+                                <div class="texte-contenu-carte-populaire">
+                                    <h4>Hôtel Tout Bleu et Blanc</h4>
+                                    <p>Nuit à partir de <b>68€</b></p>
+                                    <span class="etoiles">
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star" style="color: #f2f2f2"></i>
+                                    </span>
+                                </div>
+    
                             </div>
-
-                        </div>
-                    </a>
-
+                        </a>
+    
+                    </div>
                 </div>
 
             </div>
@@ -286,42 +318,42 @@
 
             <div class="contenu-activites">
 
-                <a href="#" class="lien-activites-1">
+                <a href="#" class="lien-activites lien-activites-1">
                     <div class="carte-activites">
                         <img src="images/activites/4_small/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg" alt="Photo du Vieux Port de Marseille avec des bateaux en premier plan et des immeubles et habitations en arrière plan">
                         <h4>Vieux Port</h4>
                     </div>
                 </a>
                 
-                <a href="#" class="lien-activites-2">
+                <a href="#" class="lien-activites lien-activites-2">
                     <div class="carte-activites">
                         <img src="images/activites/4_small/paul-hermann-QFTrLdQIRhI-unsplash.jpg" alt="Photo du Fort de Pomègues sur une colline caillouteuse et construction ancienne en pierre">
                         <h4>Fort de Pomègues</h4>
                     </div>
                 </a>
 
-                <a href="#" class="lien-activites-3">
+                <a href="#" class="lien-activites lien-activites-3">
                     <div class="carte-activites">
                         <img src="images/activites/4_small/kevin-hikari-rV_Qd1l-VXg-unsplash.jpg" alt="Photo prise sur le bord de mer avec au loin les Iles du Frioul">
                         <h4>Îles de Frioul</h4>
                     </div>
                 </a>
 
-                <a href="#" class="lien-activites-4">
+                <a href="#" class="lien-activites lien-activites-4">
                     <div class="carte-activites">
                         <img src="images/activites/4_small/kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg" alt="Photo du Parc National des Calanques, montagne, végétation et vue sur la mer">
                         <h4>Parc National des Calanques</h4>
                     </div>
                 </a>
 
-                <a href="#" class="lien-activites-5">
+                <a href="#" class="lien-activites lien-activites-5">
                     <div class="carte-activites">
                         <img src="images/activites/4_small/florian-wehde-xW9e8gdotxI-unsplash.jpg" alt="Photo de Notre Dame de la Garde qui surplombe la ville de Marseille">
                         <h4>Notre-Dame-de-la-Garde</h4>
                     </div>
                 </a>
 
-                <a href="#" class="lien-activites-6">
+                <a href="#" class="lien-activites lien-activites-6">
                     <div class="carte-activites">
                         <img src="images/activites/4_small/lena-paulin-wH2-EJoDcV0-unsplash.jpg" alt="Photo du Parc Longchamp avec une façade ancienne et une fontaine à eau et une statue au premier plan">
                         <h4>Parc Longchamp</h4>
@@ -340,7 +372,7 @@
 
             <div class="contenu-footer">
 
-                <div class="texte-contenu-footer">
+                <div class="texte-contenu-footer footer-1">
                     <h3>À propos</h3>
                     <ul>
                         <li><a href="#">Fonctionnement du site</a></li>
