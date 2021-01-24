@@ -1,4 +1,59 @@
-@media screen and (max-width: 375px) {
+@media (max-width: 1408px) {
+  .contenu-filtre {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  #hebergements {
+    flex-direction: column;
+  }
+
+  .contenant-hebergement {
+    width: 100%;
+    margin-inline: auto;
+  }
+
+  .contenu-hebergement {
+    justify-content: space-between;
+  }
+
+  .carte-hebergement {
+    margin-right: 50px;
+  }
+
+  .populaire {
+    flex-direction: column;
+    width: 100%;
+    margin-top: 50px;
+  }
+
+  .populaire h3 {
+    align-self: flex-start;
+    margin-left: 50px;
+  }
+
+  .contenu-populaire {
+    flex-direction: row;
+  }
+
+  .carte-populaire {
+    margin-right: 20px;
+  }
+
+  #activites {
+    width: 100%;
+  }
+
+  .contenu-activites {
+    flex-wrap: no-wrap;
+    width: 93%;
+  }
+
+  .carte-activites {
+  }
+}
+
+@media screen and (max-width: 500px) {
   .container {
     width: 100%;
     margin: 0;

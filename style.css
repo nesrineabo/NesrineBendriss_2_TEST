@@ -358,6 +358,10 @@ nav li a:hover {
   border-bottom-left-radius: 20px;
 }
 
+.carte-3 img {
+  width: 125px;
+}
+
 .texte-contenu-carte-populaire {
   padding-left: 16px;
   padding-top: 15px;
