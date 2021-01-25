@@ -391,7 +391,7 @@ nav li a:hover {
   padding-bottom: 15px;
 }
 .contenu-activites {
-  max-width: 1340px;
+  /*max-width: 1340px;*/
   display: flex;
   flex-flow: column wrap;
   align-content: space-between;

@@ -1,4 +1,8 @@
 @media (max-width: 1408px) {
+  body {
+    display: block;
+  }
+
   .contenu-filtre {
     display: flex;
     flex-wrap: wrap;
@@ -18,7 +22,11 @@
   }
 
   .carte-hebergement {
-    margin-right: 50px;
+    flex-basis: 30%;
+  }
+
+  .contenu-carte-hebergement img {
+    width: 100%;
   }
 
   .populaire {
@@ -28,8 +36,13 @@
   }
 
   .populaire h3 {
+    flex-basis: 100%;
     align-self: flex-start;
-    margin-left: 50px;
+    margin-left: 20px;
+  }
+
+  .fa-chart-line {
+    margin-left: 0;
   }
 
   .contenu-populaire {
@@ -45,15 +58,130 @@
   }
 
   .contenu-activites {
-    flex-wrap: no-wrap;
-    width: 93%;
+    width: 100%;
+    margin-inline: auto;
+    justify-content: space-between;
+  }
+
+  .lien-activites {
+    justify-content: space-between;
   }
 
   .carte-activites {
+    width: 100%;
+  }
+}
+
+@media (max-width: 1325px) {
+  body {
+    display: block;
+  }
+  .contenu-activites {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: space-between;
+    height: 500px;
+    width: 100%;
+    margin-inline: 0;
+  }
+
+  .lien-activites {
+    flex: 1; /*grow | shrink | basis */
+    flex-basis: 30%;
+  }
+
+  .lien-activites {
+    height: 215px;
+    width: 350px;
+  }
+
+  .lien-activites img {
+    width: 350px;
+    height: 180px;
+  }
+}
+
+@media (max-width: 1230px) {
+  body {
+    display: block;
+  }
+
+  .carte-populaire {
+    padding-bottom: 30px;
+  }
+
+  .texte-contenu-carte-populaire {
+    padding-right: 10px;
+  }
+
+  .texte-contenu-carte-populaire h4 {
+    font-size: 15px;
+  }
+
+  .contenu-carte-populaire img {
+    height: 165px;
+  }
+
+  .contenu-activites {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .lien-activites {
+    width: auto;
+    height: auto;
+    flex-grow: 1 0 30%;
+  }
+
+  .footer {
+    margin-right: 0;
+    width: auto;
+  }
+
+  .contenu-footer {
+    margin-left: 50px;
+  }
+
+  .texte-contenu-footer {
+    margin-right: 150px;
+  }
+}
+
+@media (max-width: 1165px) {
+  .contenu-activites {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-between;
+    width: 90%;
+    /*flex-wrap: wrap;
+    justify-content: space-between;
+    height: 500px;
+    width: 100%;
+    margin-inline: 0;*/
+  }
+
+  .lien-activites {
+    flex: 1 0 50%;
+  }
+
+  .lien-activites {
+    margin-right: 50px;
+    height: 265px;
+    width: 400px;
+  }
+
+  .lien-activites img {
+    width: 400px;
+    height: 180px;
   }
 }
 
 @media screen and (max-width: 500px) {
+  body {
+    display: block;
+  }
+
   .container {
     width: 100%;
     margin: 0;
