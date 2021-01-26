@@ -149,15 +149,15 @@
 /* BREAKPOINT 1165PX : ACTIVITÉS */
 @media (max-width: 1165px) {
   #activites {
-    max-width: 920px;
+    margin: 0;
   }
 
   .contenu-activites {
-    max-width: 920px;
+    box-sizing: border-box;
+    width: 100%;
     display: flex;
     flex-wrap: wrap;
     align-content: space-between;
-    flex: 1 0 100%;
 
     /*flex-wrap: wrap;
     justify-content: space-between;
@@ -167,7 +167,7 @@
   }
 
   .lien-activites {
-    margin-right: 50px;
+    margin-right: 20px;
     height: 265px;
     width: 320px;
   }
@@ -196,6 +196,11 @@
   .texte-contenu-footer {
     margin-right: 100px;
   }
+
+  .contenu-activites {
+    display: flex;
+    flex-wrap: wrap;
+  }
 }
 
 /* BREAKPOINT 854PX : FILTRES + BOUTONS FILTRES */
@@ -214,17 +219,19 @@
 /* BREAKPOINT 790PX : HÉBERGEMENTS */
 @media screen and (max-width: 790px) {
   .contenu-hebergement {
+    width: 100%;
+    box-sizing: border-box;
     flex-wrap: wrap;
     justify-content: space-between;
   }
 
   .carte-hebergement {
-    flex-basis: 50%;
+    flex: 1 1 100%;
   }
-
+  /*
   .contenu-carte-hebergement img {
-    width: 100%;
-  }
+    width: 50%;
+  }*/
 }
 
 /* BREAKPOINT 768PX : POPULAIRE / FOOTER - a faire*/
@@ -495,6 +502,7 @@
   /* ACTIVITES */
 
   #activites {
+    display: flex;
     width: 100%;
     margin-inline: auto;
   }
@@ -505,6 +513,7 @@
   }
 
   .contenu-activites {
+    flex-wrap: wrap;
     flex-direction: column;
     width: 100%;
     height: auto;
